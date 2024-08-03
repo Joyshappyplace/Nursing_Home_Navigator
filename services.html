@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Nursing Home Navigator</title>
+    <style>
+        /* Inline CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: grey;
+            color: white;
+            padding: 2px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .services h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #555;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .highlight {
+            background-color: #ffeeba;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .extra-service {
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://cdn.vectorstock.com/i/500p/21/06/nursing-home-icon-sign-symbol-for-element-design-vector-40312106.jpg" alt="Nursing Home Navigator">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="residents.html">Residents</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <p>At Nursing Home Navigator, we offer a range of services designed to improve the quality of care for residents and streamline administrative processes for staff.</p>
+
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="highlight">
+                    <td>Resident Data Management</td>
+                    <td>Secure and efficient management of resident information, including health records and personal details.</td>
+                </tr>
+                <tr>
+                    <td>Caregiver Communication</td>
+                    <td>Enhanced communication tools to improve coordination among caregivers, ensuring that everyone is informed and up-to-date.</td>
+                </tr>
+                <tr>
+                    <td>Administrative Efficiency</td>
+                    <td>Streamlined administrative tasks to reduce errors, save time, and improve the overall workflow within the facility.</td>
+                </tr>
+                <tr>
+                    <td>Health Monitoring</td>
+                    <td>Advanced tools to monitor and analyze resident health, helping to identify potential issues before they become serious.</td>
+                </tr>
+                <tr>
+                    <td>Family Engagement</td>
+                    <td>Keep families informed and involved in the care of their loved ones with regular updates and easy access to information.</td>
+                </tr>
+            </table>
+
+            <div class="extra-service">
+                <h2>Personalized Care Plans</h2>
+                <p>We work closely with residents and their families to create personalized care plans that address their unique needs and preferences.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Nursing Home Navigator. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
